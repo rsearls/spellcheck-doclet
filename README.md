@@ -16,13 +16,11 @@ The (cloned) enhanced version, **org.jboss.SpellCheckDoclet**, is also reference
 org.jboss.SpellCheckDoclet supports all the options provided in softframworks' SpellCheckDoclet, see 
 http://www.softframeworks.com/download/download.php and the follow 2 options.
  
-  *-reportfile <filename>    Write the results to the specified file.  When no file
-                            is specified results are written to standard out.
+*-reportfile <filename>    Write the results to the specified file.  When no file is specified results are written to standard out.
                             
-  *-unknownwords <filename>  A file of words not found in the dictionaries specified.
+*-unknownwords <filename>  A file of words not found in the dictionaries specified.
  
-  *An English dictionary, en.txt, of 119773 words is provided in the SpellCheckDoclet-<VERSION>.jar
-  It can be referenced by the input option, -dictionary dictionary/en.txt
+*An English dictionary, en.txt, of 119773 words is provided in the SpellCheckDoclet-<VERSION>.jar  It can be referenced by the input option, -dictionary dictionary/en.txt
  
  
 #### Example configuration section of SpellCheckDoclet in the maven-javadoc-plugin
@@ -44,6 +42,8 @@ http://www.softframeworks.com/download/download.php and the follow 2 options.
  
 ## References
  1 http://www.softframeworks.com/download/download.php 
- 2 http://www.softframeworks.com/etc/spellcheck/SpellCheckDoclet.html   
+ 
+ 2 http://www.softframeworks.com/etc/spellcheck/SpellCheckDoclet.html 
+   
  3 http://sourceforge.net/projects/jazzy
     
