@@ -23,7 +23,8 @@ http://www.softframeworks.com/download/download.php and the follow 2 options.
    An English dictionary, en.txt, of 119773 words is provided in the SpellCheckDoclet-\<VERSION\>.jar  It can be referenced by the input option, **-dictionary dictionary/en.txt**
  
  
-##### Example configuration section of SpellCheckDoclet in the maven-javadoc-plugin
+ 
+#### Example configuration section of SpellCheckDoclet in the maven-javadoc-plugin
 ```
      <configuration>
         <doclet>org.jboss.spellcheck.SpellCheckDoclet</doclet>
@@ -40,7 +41,7 @@ http://www.softframeworks.com/download/download.php and the follow 2 options.
 ```              
  
  
-##### References
+#### References
  1 http://www.softframeworks.com/download/download.php 
  
  2 http://www.softframeworks.com/etc/spellcheck/SpellCheckDoclet.html 
