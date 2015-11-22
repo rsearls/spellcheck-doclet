@@ -9,12 +9,12 @@ to guarantee access to these APIs for the enhanced version of SpellCheckDoclet, 
 for both projects are provided in this project.  Both SpellCheckDoclet and jazzy have been made
 buildable as maven archives.
 
-softframworks' version of spellcheck.SpellCheckDoclet is unaltered and referenceable from SpellCheckDoclet-<VERSION>.jar
-The (cloned) enhanced version, org.jboss.SpellCheckDoclet, is also referenceable from SpellCheckDoclet-<VERSION>.jar
+softframworks' version of *spellcheck.SpellCheckDoclet* is unaltered and referenceable from SpellCheckDoclet-\<VERSION\>.jar
+The (cloned) enhanced version, *org.jboss.SpellCheckDoclet*, is also referenceable from SpellCheckDoclet-\<VERSION\>.jar
  
  
 org.jboss.SpellCheckDoclet supports all the options provided in softframworks' SpellCheckDoclet, see 
-[http://www.softframeworks.com/download/download.php] and the follow 2 options.
+http://www.softframeworks.com/download/download.php and the follow 2 options.
  
   -reportfile <filename>    Write the results to the specified file.  When no file
                             is specified results are written to standard out.
@@ -24,7 +24,8 @@ org.jboss.SpellCheckDoclet supports all the options provided in softframworks' S
   It can be referenced by the input option, -dictionary dictionary/en.txt
  
  
- ## Example configuration section of SpellCheckDoclet in the maven-javadoc-plugin
+## Example configuration section of SpellCheckDoclet in the maven-javadoc-plugin
+```
      <configuration>
         <doclet>org.jboss.spellcheck.SpellCheckDoclet</doclet>
         <docletArtifact>
@@ -37,11 +38,11 @@ org.jboss.SpellCheckDoclet supports all the options provided in softframworks' S
         <outputDirectory>${project.build.directory}</outputDirectory>
         <destDir>spellcheck</destDir>
     </configuration>
-              
+```              
  
  
 ## References
-1 [http://www.softframeworks.com/download/download.php]
-2 [http://www.softframeworks.com/etc/spellcheck/SpellCheckDoclet.html]   
-3 [http://sourceforge.net/projects/jazzy]
+1 http://www.softframeworks.com/download/download.php
+2 http://www.softframeworks.com/etc/spellcheck/SpellCheckDoclet.html   
+3 http://sourceforge.net/projects/jazzy
     
